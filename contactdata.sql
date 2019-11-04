@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `contactdata` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `firstname` varchar(55) NOT NULL,
   `lastname` varchar(55) NOT NULL,
-  `phone` bigint(12) NOT NULL,
+  `phone` varchar(15) NOT NULL,
   `email` varchar(55) NOT NULL,
   `message` text NOT NULL,
   `attachement` varchar(100) DEFAULT NULL,
